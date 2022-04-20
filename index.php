@@ -41,6 +41,15 @@ var_dump($_POST);
             else
                 ch2.value = 0
         }
+
+        function funChk3() {
+            let chk3 = document.getElementById('chk3')
+            let ch3 = document.getElementById('ch3')
+            if (chk3.checked)
+                ch3.value = 1
+            else
+                ch3.value = 0
+        }
     </script>
 </body>
 
